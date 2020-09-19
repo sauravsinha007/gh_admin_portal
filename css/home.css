@@ -1,0 +1,31 @@
+#home_nav_bar
+{
+	 background-color: #AD7C67;
+}
+
+#home_main_div {
+	margin: 50px;
+}
+
+.home_grid {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+  box-shadow: 0 0px 10px 2px #ddd;
+  background: #fff;
+  color:black;
+  border-radius:10px;
+}
+
+
+#invoice_id {
+	margin-left: 170px;
+}
+
+.grid_img {
+   width: 130px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}

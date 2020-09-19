@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Invoice</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/genericStyle.css" rel="stylesheet">
+    <link href="../css/invoice.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+  <body>
+
+    <!--        activity indicator  -->
+    <div class="overlay" id="overlay" style="display:none;"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id = "invoice_nav_bar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <form class="form-inline">
+             <a class="back_btn_class" onclick="invoiceBtnAction()"><img src="../img/left-arrow_img.png" class="logoutClass"></a>
+              <span class="left_header_title">Invoice</span>
+          </form>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+           <!--  <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li> -->
+          </ul>
+          <form class="navbar-form navbar-right">
+            <!-- <input type="text" class="form-control" placeholder="Search..."> -->
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="invoice_main_div">
+      
+    </div>
+
+      <nav aria-label="Page navigation example" class="pull-right" id = "invoice_pagination" style="display:none;">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled" id="previous_btn">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+        <li class="page-item" id="next_btn">
+           <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/CommonScript.js"></script>
+    <script src="../js/invoice.js"></script>
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
