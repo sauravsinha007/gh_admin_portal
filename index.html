@@ -15,7 +15,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/signin.css" rel="stylesheet">
     <link href="css/genericStyle.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -32,34 +31,13 @@
 
   <body>
 
-    <!--        activity indicator  -->
-    <div class="overlay" id="overlay" style="display:none;"></div>
-    <div class="container">
-
-      <form class="form-signin">
-        <!--  <h2 class="center">QuizOC Web Pannel</h2><br/> -->
-        <h4 class="form-signin-heading">Sign in</h4>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-         <!--  <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me" id='loginRememberMeBtn'> Remember me
-          </label>
-        </div> -->
-        <button class="btn btn-lg btn-primary btn-block" id='adminSignBtnId'>Login</button>
-      </form>
-    </div> <!-- /container -->
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/CommonScript.js"></script>
-    <script src="js/login.js"></script>
+    <div>
+    </div>
+    
     <script type="text/javascript">
+      window.onload = function () {    
+            location.href='login.html';   
+        };
     </script>
   </body>
 </html>
