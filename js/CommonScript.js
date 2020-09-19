@@ -89,32 +89,13 @@ function makeResponseInProperString(str)
 
 function startLoadingIndicatorWithLabel(str)
 {
-    if (detectMobile() == false)
-    {
-        $('#overlay').show();
-        return false;
-    }
-    else
-    {
-        if (typeof window.plugins.spinnerDialog != "undefined") {
-            // safe to use the function
-        }
-    }
+   $('#overlay').show();
 }
 
 function stopLoadingIngicator()
 {
-    if (detectMobile() == false)
-    {
-        $('#overlay').hide();
-        return false;
-    }
-    else
-    {
-        if (typeof window.plugins.spinnerDialog != "undefined") {
-            // safe to use the function
-        }
-    }
+            
+    $('#overlay').hide();
 }
 
 function detectMobile()
