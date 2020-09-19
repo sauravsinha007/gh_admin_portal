@@ -45,7 +45,7 @@ function isUserAleradyExist()
 
 function logoutBtnAction()
 {
-    location.href='login.html';
+    location.href='index.html';
 }
 
 function showServerErrorMessage()
