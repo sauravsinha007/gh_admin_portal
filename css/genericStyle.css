@@ -12,9 +12,9 @@
 
 .logoutClass {
 
-  width: 40px;
-  height: 40px;
-  margin-top: 5px;
+  width: 33px;
+  height: 33px;
+  margin-top: 25%; 
 }
 
 .left_header_title
@@ -27,9 +27,19 @@
      margin-left: 10px;
 }
 
+.top_left_content
+{
+    margin-top: 10px;
+}
+
 .back_btn_class
 {
      margin-left: 5px;
+}
+
+.back_btn_img {
+  width: 33px;
+  height: 33px;
 }
 
 .errorField

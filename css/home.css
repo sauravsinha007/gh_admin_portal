@@ -4,13 +4,27 @@
 }
 
 #home_main_div {
-	margin: 50px;
+      margin: 50px;
+  }
+
+@media (max-width: 480px) {
+  #home_main_div {
+      margin: 10px;
+  }
+
+  #home_main_div .row {
+    margin-left: 10px;
+  }
 }
+
 
 .home_grid {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 120px;
+  min-height: 120px;
+
   z-index: -1;
   box-shadow: 0 0px 10px 2px #ddd;
   background: #fff;
@@ -28,4 +42,14 @@
   height: auto;
   margin: 0px;
   padding: 0px;
+}
+
+.grid_icon {
+   max-width: 150px;
+   height: auto;
+   margin-top: 20%;
+}
+
+.grid_title {
+  color: #000;
 }
