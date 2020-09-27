@@ -7,17 +7,6 @@
       margin: 50px;
   }
 
-@media (max-width: 480px) {
-  #home_main_div {
-      margin: 10px;
-  }
-
-  #home_main_div .row {
-    margin-left: 10px;
-  }
-}
-
-
 .home_grid {
   position: absolute;
   max-width: 150px;
@@ -30,12 +19,28 @@
   background: #fff;
   color:black;
   border-radius:10px;
+  /*margin-left: 30px;*/
 }
 
+@media (max-width: 480px) {
+  #home_main_div {
+      margin: 10px;
+  }
 
-#invoice_id {
-	margin-left: 170px;
+  #home_main_div .row {
+    margin-left: 10px;
+  }
+
 }
+
+/*#grid_row_id
+{
+  position: absolute;
+  width: 100%;
+}*/
+
+
+
 
 .grid_img {
    width: 130px;

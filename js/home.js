@@ -10,6 +10,12 @@ $('#import_customer_id').click(function(){
        
     });
 
+$('#export_customer_id').click(function(){
+
+   processToExportCustomerFromServer()
+       
+    });
+
 
 $('input[type=file]').change(function() {
     //$('input[type=text]').val($(this).val());
@@ -57,4 +63,27 @@ function processToUploadFileOnServer(fileName)
            }
            });
    
+}
+
+
+function processToExportCustomerFromServer()
+{
+    startLoadingIndicatorWithLabel("Loading...");
+    var lUrl = TxConstants.BaseUrl + "/exportCustomer";
+    console.log("Request Url: " + lUrl);
+
+    $.ajax({
+           type: "GET",
+           url: lUrl,
+           success:function(responseStr){
+           stopLoadingIngicator();
+           console.log("Response" +JSON.stringify(responseStr));
+           alert(responseStr);
+           },
+           error:  function(errorStr){
+           stopLoadingIngicator();
+           alert("errorStr" +JSON.stringify(errorStr));
+           //navigator.notification.alert(TxConstants.ServerErrorMsg, clickOnOKAlertBtn, '', 'OK');
+           }
+           });
 }
