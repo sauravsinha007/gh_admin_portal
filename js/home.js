@@ -12,7 +12,9 @@ $('#import_customer_id').click(function(){
 
 $('#export_customer_id').click(function(){
 
-   processToExportCustomerFromServer()
+   var lUrl = TxConstants.BaseUrl + "/exportCustomer";
+   window.open(lUrl);
+  // processToExportCustomerFromServer()
        
     });
 
