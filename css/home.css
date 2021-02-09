@@ -10,7 +10,7 @@
 .home_grid {
   position: absolute;
   max-width: 150px;
-  max-height: 150px;
+  max-height: 170px;
   min-width: 120px;
   min-height: 120px;
 
@@ -31,6 +31,15 @@
     margin-left: 340px;
   }
 
+  #ready_report_id {
+    margin-left: 510px;
+  }
+
+  #future_report_id {
+    margin-left: 680px;
+  }
+
+
 @media (max-width: 480px) {
   #home_main_div {
       margin: 10px;
@@ -44,6 +53,17 @@
     margin-top: 170px;
     margin-left: 5px;
   }
+
+    #ready_report_id {
+    margin-top: 170px;
+    margin-left: 170px;
+  }
+
+  #future_report_id {
+    margin-top: 340px;
+    margin-left: 5px;
+  }
+
 }
 
 /*#grid_row_id

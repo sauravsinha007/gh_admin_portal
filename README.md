@@ -1,2 +1,1 @@
-# gh_admin_portal
-Admin Portal
+# gh_admin_dev

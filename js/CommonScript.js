@@ -2,9 +2,10 @@
  http://localhost:8888/
  http://www.appkund.com/QuizApi
  http://54.153.93.130/
+ 'https://green-house-sa.herokuapp.com'
  */
 var TxConstants = {
-    BaseUrl: 'https://green-house-sa.herokuapp.com',
+    BaseUrl: 'http://3.15.138.112:8080',
     NetworkErrorMsg:  'No internet available.',
     ServerErrorMsg:   'Could not connect to the server at this time.',
 };

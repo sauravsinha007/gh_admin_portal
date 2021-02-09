@@ -19,6 +19,22 @@ $('#export_customer_id').click(function(){
     });
 
 
+$('#ready_report_id').click(function(){
+
+   var lUrl = TxConstants.BaseUrl + "/excelReadyReport";
+   window.open(lUrl);
+  // processToExportCustomerFromServer()
+       
+    });
+
+$('#future_report_id').click(function(){
+
+   var lUrl = TxConstants.BaseUrl + "/excelFutureReadyReport";
+   window.open(lUrl);
+  // processToExportCustomerFromServer()
+       
+    });
+
 $('input[type=file]').change(function() {
     //$('input[type=text]').val($(this).val());
 
